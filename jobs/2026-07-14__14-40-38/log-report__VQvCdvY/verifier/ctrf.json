@@ -1,0 +1,74 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1784036476.5409343,
+            "stop": 1784036476.561111
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_report_exists",
+                "status": "passed",
+                "duration": 0.0006777509999977838,
+                "start": 1784036476.556034,
+                "stop": 1784036476.5569603,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_is_valid_json_object",
+                "status": "passed",
+                "duration": 0.0005815000000026771,
+                "start": 1784036476.557114,
+                "stop": 1784036476.5578687,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_required_keys_present",
+                "status": "passed",
+                "duration": 0.0005601239999961649,
+                "start": 1784036476.5580072,
+                "stop": 1784036476.558736,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_total_requests_correct",
+                "status": "passed",
+                "duration": 0.00044729099999329947,
+                "start": 1784036476.55888,
+                "stop": 1784036476.5594633,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_unique_ips_correct",
+                "status": "passed",
+                "duration": 0.00045337499999220654,
+                "start": 1784036476.559586,
+                "stop": 1784036476.5601847,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_top_path_correct",
+                "status": "passed",
+                "duration": 0.0004727930000001379,
+                "start": 1784036476.560308,
+                "stop": 1784036476.5609117,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

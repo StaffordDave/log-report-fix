@@ -1,0 +1,77 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 6,
+            "passed": 5,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1784036542.1928134,
+            "stop": 1784036542.2200515
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_report_exists",
+                "status": "passed",
+                "duration": 0.0006821680000115293,
+                "start": 1784036542.2081964,
+                "stop": 1784036542.2091618,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_is_valid_json_object",
+                "status": "passed",
+                "duration": 0.0005506239999988338,
+                "start": 1784036542.2093246,
+                "stop": 1784036542.2100368,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_required_keys_present",
+                "status": "passed",
+                "duration": 0.0005258739999902673,
+                "start": 1784036542.2101748,
+                "stop": 1784036542.2108603,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_total_requests_correct",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0005903749999873753,
+                "start": 1784036542.2109888,
+                "stop": 1784036542.2181704,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_total_requests_correct():\n        \"\"\"total_requests must equal the number of log entries (6).\"\"\"\n>       assert _load()[\"total_requests\"] == 6\nE       assert 999 == 6\n\n/tests/test_outputs.py:28: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_unique_ips_correct",
+                "status": "passed",
+                "duration": 0.0005619179999882817,
+                "start": 1784036542.2183027,
+                "stop": 1784036542.2190561,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_top_path_correct",
+                "status": "passed",
+                "duration": 0.0005200420000051054,
+                "start": 1784036542.2191765,
+                "stop": 1784036542.2198439,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}
